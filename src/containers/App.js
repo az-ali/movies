@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { fetchMovies } from '../actions/index';
-import SearchBar from './SearchBar';
-import MoviesList from './MoviesList';
+import { fetchMovies } from '../actions';
+import SearchBar from '../components/SearchBar';
+import MoviesList from '../components/MoviesList';
 
 class App extends Component {
 
